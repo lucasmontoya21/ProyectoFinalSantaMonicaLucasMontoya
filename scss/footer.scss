@@ -23,6 +23,10 @@ h4 {
     }
 }
 
+.fixed {
+    display: none;
+}
+
 @media screen and (min-width:990px ) {
     footer {
         border: 1px black solid;
@@ -41,5 +45,20 @@ h4 {
         &:hover {
             color: black;
         }
+    }
+
+    .fixed {
+        display: flex;
+        position: fixed;
+        transition: all 0,3;
+        bottom: 0px;
+        right: 0px;
+        width: 120px;
+        border-radius: 30px;
+     }
+    
+     .fixed:hover {
+        width: 150px;
+        height: 100px;
     }
 }

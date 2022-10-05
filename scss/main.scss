@@ -9,7 +9,6 @@ main {
     font-weight: bolder;
     font-family: $estilo-fuente-principal;
     font-size: $tam-fuente-subtitulo-movil;
-    margin: 20px;
     padding: 20px;
 }
 
@@ -60,7 +59,6 @@ main {
 }
 
 .parrafo2 {
-    margin: 15px;
     padding: 15px;
 }
 
@@ -69,7 +67,6 @@ main {
     text-align: center;
     font-family: $estilo-fuente-secundaria;
     border: 5px black dashed;
-    margin: 15px;
     padding: 15px;
 }
 
@@ -78,21 +75,27 @@ main {
 .tituloUbicacion {
     font-size: $tam-fuente-subtitulo-movil;
     font-weight: bolder;
-    padding: 30px;
+    padding-bottom: 550px;
     font-family: $estilo-fuente-principal;
 }
 
-.mapa {
+.Box {
     position: relative;
-    width: 300px;
-    height: 300px;
-    left: 35px;
+    padding-bottom:56.25%;
+    height:0;
+}
+
+.mapa {
+    position:absolute;
+    left: 50px;
+    top: 550px;
+    height: 40%;
+    width: 70%;
 }
 
 .cajaForm {
     background-color: black;
     border: 3px white dashed;
-    margin: 10px;
     padding: 40px;
 }
 
@@ -115,7 +118,6 @@ main {
     font-weight: bolder;
     font-family: $estilo-fuente-principal;
     font-size: $tam-fuente-subtitulo-movil;
-    margin: 30px;
     padding: 30px;
 }
 
@@ -158,7 +160,6 @@ main {
     font-weight: bolder;
     font-size: $tam-fuente-subtitulo-movil;
     font-family: $estilo-fuente-principal;
-    margin: 20px;
     padding: 20px;
 }
 
@@ -175,7 +176,6 @@ main {
     background-color: red;
     border: 2px black dashed;
     text-align: center;
-    margin: 20px;
     padding: 20px;
     font-family:$estilo-fuente-secundaria;
 }
@@ -206,7 +206,7 @@ main {
 /* Talles */
 
 .talles {
-    margin: 15px;
+    padding: 15px;
 }
 
 .uno {
@@ -256,7 +256,6 @@ main {
             font-weight: bolder;
             font-family: $estilo-fuente-principal;
             font-size: $tam-fuente-subtitulo;
-            margin: 20px;
             padding: 20px;
         }
     
@@ -264,7 +263,6 @@ main {
             text-align: center;
             text-transform: uppercase;
             font-family: $estilo-fuente-secundaria;
-            margin: 20px;
             padding: 20px;
             color: white;
         }
@@ -295,15 +293,21 @@ main {
     color: white;
     font-size: $tam-fuente-subtitulo;
     font-weight: bolder;
-    margin: 10px;
+    padding-bottom: 600px;
     font-family: $estilo-fuente-principal;
 }
 
-.mapa {
+.Box {
     position: relative;
-    left: 250px;
-    width: 750px;
-    height: 500px;
+    padding-bottom:56.25%;
+    height:0;
+}
+.mapa {
+    position: absolute;
+    left: 220px;
+    top: 390px;
+    width: 800px;
+    height: 550px;
 }
 
 /* Sobre Nosotros */
@@ -314,7 +318,6 @@ main {
     font-family: $estilo-fuente-principal;
     font-size: $tam-fuente-subtitulo;
     font-weight: bolder;
-    margin: 20px;
     padding: 20px;
 }
 
@@ -324,7 +327,6 @@ main {
     border: 5px white solid;
     background-color: red;
     text-align: center;
-    margin: 20px;
     font-family: $estilo-fuente-secundaria;
     font-size: $tam-fuente-parrafo;
 }
@@ -363,7 +365,6 @@ main {
     border: 5px white dashed;
     background-color: red;
     text-align: center;
-    margin: 20px;
     font-family: $estilo-fuente-secundaria;
     font-size: $tam-fuente-parrafo;
 }

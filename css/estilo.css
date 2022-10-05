@@ -40,7 +40,7 @@ header .tituloIndex {
       font-family: "Oswald", sans-serif;
       font-size: 100px;
       font-weight: bolder;
-      left: 350px; }
+      left: 390px; }
     header .parrafoIndex1 {
       color: white;
       display: inline-block;
@@ -58,7 +58,6 @@ main {
   font-weight: bolder;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
-  margin: 20px;
   padding: 20px; }
 
 .primeraLinea {
@@ -100,7 +99,6 @@ main {
   justify-content: center; }
 
 .parrafo2 {
-  margin: 15px;
   padding: 15px; }
 
 .parrafoIndex2 {
@@ -108,26 +106,30 @@ main {
   text-align: center;
   font-family: "Playfair Display", serif;
   border: 5px black dashed;
-  margin: 15px;
   padding: 15px; }
 
 /* Contacto y Ubicacion */
 .tituloUbicacion {
   font-size: 50px;
   font-weight: bolder;
-  padding: 30px;
+  padding-bottom: 550px;
   font-family: "Oswald", sans-serif; }
 
-.mapa {
+.Box {
   position: relative;
-  width: 300px;
-  height: 300px;
-  left: 35px; }
+  padding-bottom: 56.25%;
+  height: 0; }
+
+.mapa {
+  position: absolute;
+  left: 50px;
+  top: 550px;
+  height: 40%;
+  width: 70%; }
 
 .cajaForm {
   background-color: black;
   border: 3px white dashed;
-  margin: 10px;
   padding: 40px; }
 
 .form-label {
@@ -145,7 +147,6 @@ main {
   font-weight: bolder;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
-  margin: 30px;
   padding: 30px; }
 
 .sub {
@@ -180,7 +181,6 @@ main {
   font-weight: bolder;
   font-size: 50px;
   font-family: "Oswald", sans-serif;
-  margin: 20px;
   padding: 20px; }
 
 .parrafoSobreNosotros {
@@ -194,7 +194,6 @@ main {
   background-color: red;
   border: 2px black dashed;
   text-align: center;
-  margin: 20px;
   padding: 20px;
   font-family: "Playfair Display", serif; }
 
@@ -219,7 +218,7 @@ main {
 
 /* Talles */
 .talles {
-  margin: 15px; }
+  padding: 15px; }
 
 .uno {
   color: white;
@@ -256,13 +255,11 @@ main {
     font-weight: bolder;
     font-family: "Oswald", sans-serif;
     font-size: 60px;
-    margin: 20px;
     padding: 20px; }
   .sub {
     text-align: center;
     text-transform: uppercase;
     font-family: "Playfair Display", serif;
-    margin: 20px;
     padding: 20px;
     color: white; }
   .relleno {
@@ -281,13 +278,18 @@ main {
     color: white;
     font-size: 60px;
     font-weight: bolder;
-    margin: 10px;
+    padding-bottom: 600px;
     font-family: "Oswald", sans-serif; }
-  .mapa {
+  .Box {
     position: relative;
-    left: 250px;
-    width: 750px;
-    height: 500px; }
+    padding-bottom: 56.25%;
+    height: 0; }
+  .mapa {
+    position: absolute;
+    left: 220px;
+    top: 390px;
+    width: 800px;
+    height: 550px; }
   /* Sobre Nosotros */
   .tituloSobreNosotros {
     color: white;
@@ -295,7 +297,6 @@ main {
     font-family: "Oswald", sans-serif;
     font-size: 60px;
     font-weight: bolder;
-    margin: 20px;
     padding: 20px; }
   .parrafoSobreNosotros {
     color: white;
@@ -303,7 +304,6 @@ main {
     border: 5px white solid;
     background-color: red;
     text-align: center;
-    margin: 20px;
     font-family: "Playfair Display", serif;
     font-size: 20px; }
   .entradaLocal2 {
@@ -330,7 +330,6 @@ main {
     border: 5px white dashed;
     background-color: red;
     text-align: center;
-    margin: 20px;
     font-family: "Playfair Display", serif;
     font-size: 20px; } }
 
@@ -352,6 +351,9 @@ h4 {
   .redes:hover {
     color: red; }
 
+.fixed {
+  display: none; }
+
 @media screen and (min-width: 990px) {
   footer {
     border: 1px black solid;
@@ -364,7 +366,18 @@ h4 {
     color: white;
     text-decoration: none; }
     .redes:hover {
-      color: black; } }
+      color: black; }
+  .fixed {
+    display: flex;
+    position: fixed;
+    transition: all 0,3;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    border-radius: 30px; }
+  .fixed:hover {
+    width: 150px;
+    height: 100px; } }
 
 .contenedor-fluid {
   overflow-x: hidden; }
