@@ -120,8 +120,8 @@ main {
 
 .mapa {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   left: 35px; }
 
 .cajaForm {
@@ -167,6 +167,12 @@ main {
   .catalogo:hover {
     color: white; }
 
+.movil {
+  display: inline-block; }
+
+.Desktop {
+  display: none; }
+
 /* Sobre Nosotros */
 .tituloSobreNosotros {
   text-align: center;
@@ -194,16 +200,16 @@ main {
 
 .entradaLocal2 {
   position: relative;
-  width: 230px;
-  height: 230px;
+  width: 170px;
+  height: 170px;
   margin: 10px;
-  left: 8px; }
+  left: 5px; }
 
 .empleados2 {
   position: relative;
-  width: 230px;
-  height: 230px;
-  left: 10px; }
+  width: 170px;
+  height: 170px;
+  left: 6px; }
 
 .empleados1 {
   display: none; }
@@ -266,6 +272,10 @@ main {
     text-decoration: none; }
     .catalogo:hover {
       color: red; }
+  .movil {
+    display: none; }
+  .Desktop {
+    display: flex; }
   /* Contacto Y Ubicacion */
   .tituloUbicacion {
     color: white;
