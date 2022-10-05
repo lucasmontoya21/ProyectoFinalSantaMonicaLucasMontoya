@@ -84,7 +84,9 @@ main {
 
 .mapa {
     position: relative;
-    left: 50px;
+    width: 400px;
+    height: 400px;
+    left: 35px;
 }
 
 .cajaForm {
@@ -172,16 +174,16 @@ main {
 
 .entradaLocal2 {
     position: relative;
-    width: 340px;
-    height: 340px;
-    margin: 30px;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
     left: 8px;
 }
 
 .empleados2 {
     position: relative;
-    width: 340px;
-    height: 340px;
+    width: 230px;
+    height: 230px;
     left: 10px;
 }
 
@@ -195,12 +197,16 @@ main {
 
 /* Talles */
 
+.talles {
+    margin: 15px;
+}
+
 .uno {
     color: white;
     background-color: black;
     border: 1px white solid;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .col {
@@ -279,8 +285,9 @@ main {
 
 .mapa {
     position: relative;
-    left: 310px;
-    width: 50%;
+    left: 250px;
+    width: 750px;
+    height: 500px;
 }
 
 /* Sobre Nosotros */

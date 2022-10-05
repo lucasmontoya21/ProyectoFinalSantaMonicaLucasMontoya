@@ -243,5 +243,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmontoya21/ProyectoFinalSantaMonicaLucasMontoya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasmontoya21/ProyectoFinalSantaMonicaLucasMontoya/issues"
+  },
+  "homepage": "https://github.com/lucasmontoya21/ProyectoFinalSantaMonicaLucasMontoya#readme",
   "description": ""
 }
